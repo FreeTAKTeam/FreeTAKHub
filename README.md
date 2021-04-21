@@ -1,5 +1,5 @@
 # FreeTAKHub
-the FreeTAKHub is a component to integrate FreeTAKServer with other systems. It's based on Node Red.
+the FreeTAKHub is a component to integrate FreeTAKServer with other (non-TAK) systems. It's based on Node Red.
 
 ## Functions
 * World Wide Emergencies: connects to an external system, pull global EMS information and push periodically to FTS
