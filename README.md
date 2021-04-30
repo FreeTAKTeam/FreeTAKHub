@@ -17,3 +17,8 @@ it's suggested to deploy FTH on a separate machine.
   *  node-red-contrib-web-worldmap
 * upload the flows in this repository
 * configure the flows
+## WebMap Packaged installation
+download package in filesystem
+navigate to download dir
+```sudo chmod +x package_name```
+```./package_name```
