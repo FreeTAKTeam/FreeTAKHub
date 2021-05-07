@@ -30,14 +30,17 @@ navigate to download dir
 ## Telegram Integration
 
 ### Create telegram Robot
-* go to telegram and create a new bot with bot father
+* go to telegram and create a new bot with botfather
 * /newbot
-* create a name for the bot
+* set a name for the bot
+* **note the token for you bot**
 * create a user name
 * register the API
 * Create a new telegram group
 * add the new created bot to the group
 * add the "What's my Telegram ID?" bot to the group
-* ensure that you bot has Groupsy enabled
+* **note the ID of your group**
+* ensure that you bot has Groups enabled. In bot father type
+``` /setjoingroups```
 * turn off privacy
 * 
