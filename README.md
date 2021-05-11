@@ -38,6 +38,8 @@ it's suggested to deploy FTH on a separate machine.
 ```
 ./[package_name] /[PATHTOCONFIGURATIONFILE]/webMAP_config.json
 ```
+* navigate to your IP:8000/tak-map 
+* http://10.0.2.15:8000/tak-map
 
 ## Telegram Integration
 
