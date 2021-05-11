@@ -22,10 +22,22 @@ it's suggested to deploy FTH on a separate machine.
 * configure the flows
 * 
 ## WebMap Packaged installation
-download package in filesystem
-navigate to download dir
-```sudo chmod +x package_name```
-```./package_name```
+* the installation supports Ubuntu, other linuxes may work but they are not supported
+* 
+* download webmap package in filesystem, the file name has the following convention:
+* [SYSTEM]_[SERVICE]_[PLATFORM]_[MAJORVERSION]_[MINORVERSION]
+* e.g. FTH_WebMap_Ubuntu_1.8_RC2
+* navigate to download dir
+* make the file executable
+```sudo chmod +x [package_name]```
+* edit the JSON file webMAP_config.json set the 
+*   "FTH_FTS_URL": "[YOUR_FTS_IP]" 
+  "FTH_FTS_TCP_Port": [YOUR_FTS_PORT]
+*  save the file
+*  in the console type:
+```
+./[package_name] /[PATHTOCONFIGURATIONFILE]/webMAP_config.json
+```
 
 ## Telegram Integration
 
