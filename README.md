@@ -13,14 +13,7 @@ the FreeTAKHub is a component to integrate FreeTAKServer with other (non-TAK) sy
 it's suggested to deploy FTH on a separate machine.
 
 ## Installation
-* install Node Red
-* install the following nodes: 
-  * node-red-contrib-multifeed-parser
-  *  node-red-contrib-telegrambot
-  *  node-red-contrib-web-worldmap
-* upload the flows in this repository
-* configure the flows
-* 
+each of the FTH component is a microservice that can be installed stand alone, with no dependency between erach other
 ## WebMap Packaged installation
 * the installation supports Ubuntu, other linuxes may work but they are not supported
 * 
