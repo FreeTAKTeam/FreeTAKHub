@@ -24,10 +24,11 @@ it's suggested to deploy FTH on a separate machine.
 ## WebMap Packaged installation
 * the installation supports Ubuntu, other linuxes may work but they are not supported
 * 
-* download webmap package in filesystem, the file name has the following convention:
+* Download the last webmap  [package](https://github.com/FreeTAKTeam/FreeTAKHub/releases/) in your filesystem, the file name has the following convention:
 * [SYSTEM]_[SERVICE]_[PLATFORM]_[MAJORVERSION]_[MINORVERSION]
 * e.g. FTH_WebMap_Ubuntu_1.8_RC2
-* navigate to download dir
+* open a terminal
+* navigate to your download dir
 * make the file executable
 ```sudo chmod +x [package_name]```
 * edit the JSON file webMAP_config.json set the 
@@ -39,7 +40,11 @@ it's suggested to deploy FTH on a separate machine.
 ./[package_name] /[PATHTOCONFIGURATIONFILE]/webMAP_config.json
 ```
 * navigate to your IP:8000/tak-map 
-* http://10.0.2.15:8000/tak-map
+* e.g. http://10.0.2.15:8000/tak-map
+
+### configuring FTS-UI for WebMAP
+the webmap is a component that works standalone, since V. 1.8, the FTS UI supports it.
+in your FreeTAKServer-UI package, edit the config.py file and set the loaction of your webmap service.
 
 ## Telegram Integration
 
