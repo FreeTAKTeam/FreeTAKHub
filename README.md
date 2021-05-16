@@ -20,8 +20,9 @@ FreeTAKHub uses FTS REST API. You will need to have a working FTS 1.8 or better,
 ![image](https://user-images.githubusercontent.com/60719165/118305634-9f0ac080-b4be-11eb-8b0f-47344f7d2fc2.png)
 
 ## WebMap Packaged 
+![webmap](https://user-images.githubusercontent.com/60719165/118400733-47449480-b639-11eb-8583-93e52cdcfb80.png)
+
 * the installation supports Ubuntu, other linuxes may work but they are not supported
-* 
 * Download the last webmap  [package](https://github.com/FreeTAKTeam/FreeTAKHub/releases/) in your filesystem, the file name has the following convention:
 * [SYSTEM]_[SERVICE]_[PLATFORM]_[MAJORVERSION]_[MINORVERSION]
 * e.g. FTH_WebMap_Ubuntu_1.8_RC2
