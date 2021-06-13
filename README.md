@@ -8,6 +8,7 @@ the FreeTAKHub is a component to integrate FreeTAKServer with other (non-TAK) sy
 * World Wide Emergencies: connects to an external system, pull global EMS information and push periodically to FTS
 *  TelegramTAK: Connects to FTS emergency and send a Telegram location and a message to a specific Telegram group chat. From a  same chat, you can create  an emergency OR send a regular chat to all in FTS.Finally you can also send an image to the group and this will be transformed into a Data Package into FTS.
 *  WebMap: Get the flow of COT from FTS and display on a web map (credit @ampledata#8354). The FTH WebMap integration can be installed as part of FTS UI or a stand alone, e.g. for a dashboard. 
+*  Video Server: a RTSP / RTPM capable server to stream in real time from / to TAK devices
 
 ## Deployment
 it's suggested to deploy each FTH integration on a separate node.
