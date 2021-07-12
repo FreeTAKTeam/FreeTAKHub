@@ -10,7 +10,9 @@ the FreeTAKHub is a component to integrate FreeTAKServer with other (non-TAK) sy
 *  WebMap: Get the flow of COT from FTS and display on a web map (credit @ampledata#8354). The FTH WebMap integration can be installed as part of FTS UI or a stand alone, e.g. for a dashboard. 
 *  Video Server: a RTSP / RTPM capable server to stream in real time from / to TAK devices
 
-## Deployment
+
+## Architecture
+![image](https://user-images.githubusercontent.com/60719165/125168213-ae368380-e17a-11eb-9b18-bf782f2d34bf.png)
 it's suggested to deploy each FTH integration on a separate node.
 
 ## Installation
