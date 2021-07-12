@@ -88,3 +88,16 @@ in your FreeTAKServer-UI package, edit the config.py file and set the loaction o
 ```
 ./[package_name] /[PATHTOCONFIGURATIONFILE]/TelegramTAK_config.json
 ```
+## Video Server
+![image](https://user-images.githubusercontent.com/60719165/125315214-449aae80-e30d-11eb-9af0-a316dccbefd3.png)
+
+the FreeTAKHyub video server is a modified version of [rtsp simple server](https://github.com/aler9/rtsp-simple-server).
+It allow to connect a [drone](https://github.com/FreeTAKTeam/FreeTAKServer-User-Docs/blob/main/docs/docs/tools/FreeTAKUAS.md) or use tools such as TAK ICU.
+the modified version is not yet released because of stability issues. To install the standard version.
+
+Download and extract a precompiled binary from the [release](https://github.com/aler9/rtsp-simple-server/releases) page.
+
+Start the server:
+```
+./rtsp-simple-server
+```
