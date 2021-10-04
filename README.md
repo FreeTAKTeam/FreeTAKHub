@@ -1,6 +1,8 @@
 # FreeTAKHub
 ![OFFICIAL logo of  FTH to annoy the censors and hopefully spark some sort of controversy ](FTHLOGO3.png)
 
+the different services of FTSHub will be moved in separate repository.
+
 Welcome to the FTH repository!
 the FreeTAKHub is a component to integrate FreeTAKServer with other (non-TAK) systems. It's based on Node Red.
 
