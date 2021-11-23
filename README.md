@@ -24,7 +24,8 @@ each of the FTH component is a microservice that can be installed stand alone, w
 FreeTAKHub uses FTS REST API. You will need to have a working FTS 1.8 or better, with the API service activated. On the FTS web UI you need to create a user and to assign a token
 ![image](https://user-images.githubusercontent.com/60719165/118305634-9f0ac080-b4be-11eb-8b0f-47344f7d2fc2.png)
 
-## WebMap Packaged 
+## WebMap Packaged
+please see the updated [user docs](https://github.com/FreeTAKTeam/FreeTAKServer-User-Docs/blob/main/docs/docs/FreeTAKHub/WebMap/Installation.md)
 ![webmap](https://user-images.githubusercontent.com/60719165/118400733-47449480-b639-11eb-8583-93e52cdcfb80.png)
 
 * the installation supports Ubuntu, other linuxes may work but they are not supported
