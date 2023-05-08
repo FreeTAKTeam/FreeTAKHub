@@ -96,13 +96,13 @@ in your FreeTAKServer-UI package, edit the config.py file and set the loaction o
 ## Video Server
 ![image](https://user-images.githubusercontent.com/60719165/125315214-449aae80-e30d-11eb-9af0-a316dccbefd3.png)
 
-the FreeTAKHyub video server is a modified version of [rtsp simple server](https://github.com/aler9/rtsp-simple-server).
-It allow to connect a [drone](https://github.com/FreeTAKTeam/FreeTAKServer-User-Docs/blob/main/docs/docs/tools/FreeTAKUAS.md) or use tools such as TAK ICU.
-the modified version is not yet released because of stability issues. To install the standard version.
+the FreeTAKHub video server is a modified version of [mediamtx](https://github.com/aler9/rtsp-simple-server) formerly rtsp-simple-server.
+It allow to connect a [drone](https://github.com/FreeTAKTeam/FreeTAKServer-User-Docs/blob/main/docs/docs/tools/FreeTAKUAS.md) or use tools such as [TAK ICU](https://github.com/FreeTAKTeam/FreeTAKServer-User-Docs/blob/442cbe7eccf1c026b28921ffc2cc759eb9908c6e/docs/docs/tools/takICU.md).
 
-Download and extract a precompiled binary from the [release](https://github.com/aler9/rtsp-simple-server/releases) page.
+The modified version is not yet released because of stability issues. To install the standard version.
+Download and extract a precompiled binary from the [release](https://github.com/aler9/mediamtx) page.
 
 Start the server:
 ```
-./rtsp-simple-server
+./mediamtx
 ```
